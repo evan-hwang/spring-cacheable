@@ -1,0 +1,11 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "age": 25,
+  "gender": 2
+}
+
+HTTP/1.1 200 OK
+Content-Type: application/json
